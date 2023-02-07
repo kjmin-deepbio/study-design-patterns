@@ -1,4 +1,4 @@
-import { CompositeLeaf, Composite } from "./composite";
+import { CompositeLeaf, Composite } from "./index";
 
 describe("Composite pattern", () => {
     it("Leaf returns correct string", () => {

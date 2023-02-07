@@ -1,6 +1,4 @@
-export interface IComponent {
-    operation(): string;
-}
+import { IComponent } from "../common";
 
 export class CompositeLeaf implements IComponent {
     operation(): string {
