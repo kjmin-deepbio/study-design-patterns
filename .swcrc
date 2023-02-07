@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json.schemastore.org/swcrc",
+    // Enable minification
+    "minify": true,
+    "module": {
+        "type": "commonjs"
+    },
+    // Optional, configure minifcation options
+    "jsc": {
+        "minify": {
+            "compress": {
+                "unused": true
+            },
+            "mangle": true
+        }
+    }
+}
