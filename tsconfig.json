@@ -5,6 +5,7 @@
         "strict": true,
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "nodenext",
         "skipLibCheck": true
     },
     "exclude": ["node_modules"]
